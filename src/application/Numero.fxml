@@ -39,14 +39,14 @@
                         <Insets left="50.0" />
                      </HBox.margin>
                   </Label>
-                  <TextField fx:id="txtRimasti" prefHeight="25.0" prefWidth="47.0">
+                  <TextField fx:id="txtRimasti" disable="true" editable="false" prefHeight="25.0" prefWidth="47.0">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>
                   </TextField>
                </children>
             </HBox>
-            <HBox fx:id="boxControlloTentativi" prefHeight="37.0" prefWidth="413.0">
+            <HBox fx:id="boxControlloTentativi" disable="true" prefHeight="37.0" prefWidth="413.0">
                <children>
                   <Label text="Tentativo">
                      <font>
@@ -68,7 +68,7 @@
                   </Button>
                </children>
             </HBox>
-            <TextArea fx:id="txtMessaggi" prefHeight="108.0" prefWidth="413.0" />
+            <TextArea fx:id="txtMessaggi" editable="false" prefHeight="108.0" prefWidth="413.0" />
          </children>
       </VBox>
    </center>
